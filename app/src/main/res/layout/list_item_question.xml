@@ -1,0 +1,93 @@
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardView"
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp"
+    app:cardBackgroundColor="@color/lightGray"
+    app:strokeColor="@android:color/white"
+    app:strokeWidth="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:text="¿Cuál es la capital de Francia?" />
+
+    <RadioGroup
+        android:id="@+id/answerRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <!-- Opción 1 -->
+        <RadioButton
+            android:id="@+id/option1RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/black"
+            android:buttonTint="@android:color/black"
+            android:text="París" />
+
+        <!-- Opción 2 -->
+        <RadioButton
+            android:id="@+id/option2RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/black"
+            android:buttonTint="@android:color/black"
+            android:text="Londres" />
+
+        <!-- Opción 3 -->
+        <RadioButton
+            android:id="@+id/option3RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/black"
+            android:buttonTint="@android:color/black"
+            android:text="Madrid" />
+
+        <!-- Opción 4 -->
+        <RadioButton
+            android:id="@+id/option4RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/black"
+            android:buttonTint="@android:color/black"
+            android:text="Berlín" />
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/btnClearAnswer"
+        android:layout_width="40sp"
+        android:layout_height="40sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/baseline_delete_24"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        app:tint="@color/red"
+    />
+
+</LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000b76</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="warning">#FF5252</color>
+
+    <color name="green">#317934</color>
+    <color name="red">#BA352B</color>
+    <color name="lightGray">#ECECEC</color>
+    <color name="white50">#99FFFFFF</color>
+    <color name="lightButton">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#727272</color>
+    <color name="black50">#80000000</color>
+
+    <color name="general_knowledge_color">#FFA07A</color>
+    <color name="entertainment_color">#FFD700</color>
+    <color name="science_color">#00BFFF</color>
+    <color name="mythology_color">#8A2BE2</color>
+    <color name="sports_color">#32CD32</color>
+    <color name="geography_color">#1E90FF</color>
+    <color name="history_color">#DC143C</color>
+    <color name="politics_color">#800080</color>
+    <color name="art_color">#FF4500</color>
+    <color name="celebrities_color">#FF69B4</color>
+    <color name="animals_color">#008000</color>
+</resources>

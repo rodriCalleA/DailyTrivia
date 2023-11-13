@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:paddingTop="12dp"
+    tools:context=".activities.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCorrectAnswers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <ProgressBar
+            android:id="@+id/pbCorrectAnswers"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:foregroundTint="@android:color/white"
+            android:visibility="gone" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+
+        <Button
+            android:id="@+id/btnCheckAnswers"
+            style="@style/Button.White"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:onClick="checkAnswers"
+            android:text="@string/checkAnswers"
+            android:textSize="20sp"
+            android:theme="@style/Button.White" />
+
+    </LinearLayout>
+
+</FrameLayout>

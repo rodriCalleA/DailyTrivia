@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/opcStadistics"
+        android:title="@string/Stadistics"
+        android:icon="@drawable/chart_icon"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:onClick="onStadistics"
+        />
+
+    <item
+        android:id="@+id/opcPreferences"
+        android:title="@string/Preferences"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="10"
+        android:iconTint="@android:color/white"
+        android:onClick="onPreferences"
+        />
+
+    <item
+        android:id="@+id/opcAcercaDe"
+        android:title="@string/aboutText"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:iconTint="@android:color/white"
+        android:orderInCategory="200"
+        android:onClick="onAbout"
+        />
+
+</menu>

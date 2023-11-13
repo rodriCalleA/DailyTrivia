@@ -1,0 +1,61 @@
+plugins {
+    id 'com.android.application'
+
+    // Add the Google services Gradle plugin
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'es.upm.miw.firebaselogin'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "es.upm.miw.firebaselogin"
+        minSdk 26
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    defaultConfig {
+        resConfigs "en" // And any other languages you support
+        resConfigs "es"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation "androidx.appcompat:appcompat:$appCompatVersion"
+    implementation "com.android.support.constraint:constraint-layout:$constraintLayoutVersion"
+    implementation "com.google.android.material:material:1.10.0"
+    implementation "org.apache.commons:commons-text:1.9"
+    implementation 'androidx.preference:preference:1.2.1'
+
+    // Volley libraries
+    implementation "com.android.volley:volley:$rootProject.volleyVersion"
+    implementation "com.google.code.gson:gson:$rootProject.gsonVersion"
+
+    // Import the Firebase BoM
+    implementation(platform("com.google.firebase:firebase-bom:$firebaseBoMVersion"))
+
+    // Firebase Auth
+    implementation "com.google.firebase:firebase-auth"
+    implementation "com.firebaseui:firebase-ui-auth:$firebaseUIAuthVersion"
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+
+    //graphs
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+    implementation 'com.google.firebase:firebase-firestore:24.9.1'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+}

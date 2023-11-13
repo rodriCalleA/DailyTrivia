@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Daily Trivial</string>
+
+    <string name="signed_in">Signed in!</string>
+    <string name="signed_out">Signed out!</string>
+    <string name="signed_cancelled">Signed in cancelled</string>
+    <string name="logout_button">Logout</string>
+    <string name="firebase_user_fmt">Firebase User: %s</string>
+    <string name="loginFail">User or Password are wrong</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signUp">signUp</string>
+    <string name="name">Name</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="passwordsDosntMatch">passwords doesn\'t match</string>
+    <string name="loginGoogle">Login with Google</string>
+    <string name="completeFields">Complete the fields"</string>
+    <string name="authenticationFailed">Authentication failed</string>
+    <string name="checkAnswers">Check Answers</string>
+    <string name="loading">Loading...</string>
+    <string name="Preferences">Preferences</string>
+    <string name="Stadistics">Stadisctics</string>
+    <string name="aboutText">About</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure_you_want_to_log_out">Are you sure you want to log out?</string>
+    <string name="logged_out">Logged Out</string>
+    <string name="textUserName">User Name</string>
+    <string name="titleUserName">Change User Name</string>
+    <string name="textChangePassword">Request a password change</string>
+    <string name="titleChangePassword">Change Password</string>
+    <string name="titleLogOut">Log Out</string>
+    <string name="aboutDescription">This is a daily trivial. Each day you shoud answer 5 random questions the best as you can. Then you can see your stadistics and puntuations. These are the categories:</string>
+    <string name="txtCorrect">Correct Answers</string>
+    <string name="txtIncorrect">Incorrect Answers</string>
+    <string name="txtNoAnswered">No Answereds</string>
+    <string name="txtByDay">Answers By Day</string>
+    <string name="no_conexion">No Internet Conexion</string>
+    <string name="resetPassword">Reset Password</string>
+    <string name="introduce_your_email">Introduce Your Email</string>
+    <string name="you_will_recive_an_email_with_a_link_to_reset_your_password">You will recive an email with a link to reset your password</string>
+    <string name="email_sent">Email Sent</string>
+    <string name="User_Profile">User Profile</string>
+    <string name="true_option">True</string>
+    <string name="false_option">False</string>
+</resources>
