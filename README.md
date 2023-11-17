@@ -46,6 +46,6 @@ Cada día se comprueba si ya se ha realizado la partida diaria y en caso contrar
 
 ---
 
-**Universidad Politécnica de Madrid**
-**Master en Ingeniería Web**
+**Universidad Politécnica de Madrid**\
+**Master en Ingeniería Web**\
 **12/11/2023**
